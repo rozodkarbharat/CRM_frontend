@@ -1,0 +1,28 @@
+.trade_PandL {
+  background: #fff;
+  display: flex;
+  /* margin: auto; */
+  max-width: 90%;
+  justify-content: center;
+  gap: 30%;
+  margin-top: 30px;
+  border-radius: 4px;
+  align-self: start;
+  margin-left: 5%;
+ 
+}
+
+.headings {
+  font-size: 14px;
+  color: #7e7e7e;
+}
+
+.trades_qty {
+  font-size: 15px;
+  color: #7e7e7e;
+  text-align: center;
+}
+
+.trades_profit {
+  font-size: 15px;
+}

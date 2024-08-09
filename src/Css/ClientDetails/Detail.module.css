@@ -1,0 +1,30 @@
+.detail {
+  display: flex;
+  width: 100%;
+  gap: 20%;
+  padding-left: 2%;
+}
+
+.detail table {
+  width: 50%;
+}
+
+.title {
+  text-align: left;
+  color: #8e8e8e;
+  font-weight: bold;
+  font-size: 14px;
+  height: 35px;
+}
+
+.desc {
+  text-align: left;
+  font-size: 14px;
+}
+
+.pen_img {
+  width: 14px;
+  height: 14px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}

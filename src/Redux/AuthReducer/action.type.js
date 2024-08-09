@@ -1,0 +1,13 @@
+export const LOGIN = "LOGIN"
+
+export const LOGOUT = "LOGOUT"
+
+export const ADD = "ADD"
+
+export const AUTH_STARTLOADING =  "AUTH_STARTLOADING"
+
+export const AUTH_SHOWNOTIFICATION  = "AUTH_SHOWNOTIFICATION"
+
+export const AUTH_GET_USER_NAME = "AUTH_GET_USER_NAME"
+
+export const CLEAR_AUTH_ERROR_MESSAGE = "CLEAR_AUTH_ERROR_MESSAGE"

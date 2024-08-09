@@ -1,0 +1,43 @@
+.manual_trade {
+  padding-left: 20%;
+}
+
+.heading_cont {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+}
+
+.switch_segment_btn {
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  width: 110px;
+  height: 30px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.page_header {
+  text-align: left;
+  font-size: 18px;
+  padding-top: 30px;
+  padding-left: 2%;
+}
+
+.line {
+  border: none;
+  border-bottom: 1px solid #aeaeae;
+  background-color: #fff;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.position_head {
+  text-align: left;
+  padding-left: 2%;
+  margin-top: 30px;
+}

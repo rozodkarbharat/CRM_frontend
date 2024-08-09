@@ -1,0 +1,60 @@
+.exit_modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 8px;
+width: 250px;
+height: 15vh;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .exit_modal p {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+   .exit_modal_buttons{
+    margin-left: auto;
+    width: max-content;
+    margin-top: 35px;
+   }
+
+  .exit_modal_buttons button {
+    padding: 6px 13px;
+    margin-right: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    
+    border-radius: 5px;
+
+
+  }
+  
+
+  .exit_modal_buttons button:last-child {
+    margin-right: 0;
+    background-color:#7071e8;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+
+  }
+  .exit_modal_buttons button:first-child{
+    margin-right: 0;
+    background-color:rgb(245, 49, 49);
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+
+  }
+
+  .exit_modal_buttons button:last-child:hover {
+    background-color: #6767f4;
+  }
+  

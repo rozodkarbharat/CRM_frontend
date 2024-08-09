@@ -1,0 +1,94 @@
+.panel {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+  padding-left: 2%;
+}
+
+.input_txt {
+  color: hsl(0, 0%, 56%);
+  font-size: 14px;
+  margin: 5px 5px;
+}
+
+.trade_input {
+  border: none;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 5px;
+  font-size: 12px;
+}
+
+.buy_sell_btn {
+  text-align: left;
+  margin-top: 30px;
+  padding-left: 2%;
+}
+
+.buy_btn {
+  background-color: #04cf00;
+  color: #fff;
+  border: none;
+  width: 110px;
+  height: 30px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.sell_btn {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  margin-left: 20px;
+  width: 110px;
+  height: 30px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.search_options_container{
+  background-color: #fff;
+  padding: 0px 5px;
+  position:absolute;
+  z-index: 1;
+  max-height: 150px;
+  overflow-y: scroll;
+}
+
+.search_option{
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.select_strategy {
+  box-sizing: border-box;
+  width: 200px;
+  height: 30px;
+  border: none;
+  color: #979797;
+  background-color: #fff;
+  font-size: 13px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ 
+.select_strategy option{
+  cursor: pointer;
+  color: #2e2e2ef8;
+}
+
+.select_strategy option:disabled {
+  color: #979797;
+  cursor: not-allowed;
+}
+.optionText {
+  display: inline-block;
+  width: calc(100% - 20px);  
+}
+.notAllowed {
+  display: inline-block;
+  width: 20px;  
+  text-align: right;
+  color: #979797; /* Match the color of disabled options */
+}

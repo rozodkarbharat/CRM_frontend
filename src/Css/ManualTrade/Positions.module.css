@@ -1,0 +1,38 @@
+.positions {
+}
+
+.position_table {
+  margin: auto;
+  min-width: 95%;
+  box-sizing: border-box;
+}
+
+.position_table th {
+  height: 40px;
+  color: #8e8e8e;
+  font-size: 15px;
+  text-align: center;
+}
+
+.position_table td {
+  font-size: 13px;
+  height: 20px;
+  text-align: center;
+  min-width: 50px;
+}
+
+.exit_btn {
+  background-color: red;
+  color: #fff;
+  padding: 4px 18px;
+  font-size: 11px;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.strategy_name {
+  width: 160px;
+  text-align: left;
+}

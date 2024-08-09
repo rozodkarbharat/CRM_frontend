@@ -1,0 +1,109 @@
+.trade_history_title {
+  color: #7e7e7e;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.all_trades {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.trade_container {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  border-radius: 5px;
+  width: 90%;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  height: 110px;
+  box-sizing: border-box;
+}
+
+.trade_detail_left {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px;
+}
+
+.trade_detail {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.strategy_name {
+  margin: 0px 0px 8px 0px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.trade_name {
+  margin: 0px 0px 10px 0px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.trade_price {
+  /* color: #7ED957; */
+  text-align: left;
+  margin: 5px 0px;
+}
+
+.trade_price_sell {
+  /* color: #7ED957; */
+  text-align: right;
+  margin: 5px 0px;
+}
+
+.trade_detail_right {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  align-items: center;
+}
+
+.trade_date {
+  text-align: left;
+  margin: 0px 0px;
+}
+
+.sell {
+  font-size: 14px;
+}
+
+.buy {
+  font-size: 14px;
+}
+
+.p_and_l {
+  margin: 0px 0px;
+  font-size: 12px;
+}
+
+.p_and_l p {
+  margin: 5px 0px;
+}
+
+.qty {
+  margin: 5px 0px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.qty p {
+  margin: 0px 0px;
+}
+
+.no_data {
+  padding-top: 10vh;
+  font-size: 16px;
+  font-weight: bold;
+  color: #7e7e7e;
+}

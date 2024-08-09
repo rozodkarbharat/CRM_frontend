@@ -1,0 +1,23 @@
+.overview {
+  display: flex;
+  background-color: #fff;
+  width: 90%;
+  justify-content: space-evenly;
+}
+
+.overview_number {
+  text-align: center;
+}
+
+.overview_txt {
+  color: #8e8e8e;
+  font-size: 14px;
+}
+
+.overview_noData{
+ 
+ margin-top: 10px;
+  font-size: 10px;
+  text-align: center;
+  
+}

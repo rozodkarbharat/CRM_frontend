@@ -1,0 +1,36 @@
+.sidebar {
+  background-color: #fff;
+  height: 100vh;
+  width: 20%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.logo_txt{
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding-left: 20%;
+}
+
+.logo_img {
+  width: 45px;
+  height: 25px;
+}
+
+.options {
+  padding-left: 20%;
+}
+.options p {
+  text-align: left;
+  line-height: 5vh;
+  cursor: pointer;
+}

@@ -1,0 +1,51 @@
+.edit_form {
+  text-align: left;
+  padding-left: 22%;
+  padding-top: 2vh;
+}
+
+.page_name {
+  padding-bottom: 20px;
+}
+
+.edit_title {
+  color: #8e8e8e;
+  margin-top: 40px;
+}
+
+.input_strategy {
+  border: none;
+  height: 40px;
+  padding-left: 15px;
+  width: 25%;
+  border-radius: 4px;
+}
+
+.textarea {
+  border: none;
+  height: auto;
+  min-height: 180px;
+  width: 90%;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+.submit_btn {
+  display: block;
+  margin-top: 50px;
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background-color: #7071e8;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.non_editable {
+  background-color: #f0f0f0; 
+  color: #555; 
+  border: none; 
+  cursor: not-allowed;  
+}

@@ -1,0 +1,104 @@
+.strategies_model_box {
+  position: absolute;
+  top: 50%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+  min-width: 280px;
+  width: 95%;  
+  max-width: 700px;
+  height: 70vh;
+  overflow-y: scroll;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 10px 15px;
+}
+.strategies_model_box::-webkit-scrollbar{
+  display: none;
+}
+.strategies_model_box hr {
+  width: 100%;
+  height: 1.5px;
+  background-color: #7071e8;
+}
+.strategies_model_total_PNl {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+   
+}
+.strategies_model_total_PNl > p{
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+ 
+.strategies_model_cross_icon {
+  position: absolute;
+  right: 10px;
+  top: -12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.strategies_model_trad_box{
+  margin-top: .7rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 12px 10px;
+  color: white;
+  font-size: 13px
+
+}
+.strategies_model_trad_box p{
+  margin: 0;
+   
+}
+.strategies_model_trad_box_left_box{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  /* gap: .5rem; */
+ 
+}
+
+.strategies_model_trad_box_left_box>div{
+  display: flex;
+  width: max-content;
+  gap: 1rem;
+ 
+ 
+}
+.strategies_model_trad_box_left_box>div>div{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.strategies_model_trad_box_right_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  
+  margin-right: 9px;
+   font-size: 11px;
+
+}
+ 
+@media only screen and (max-width: 600px) {
+  .strategies_model_box {
+    width: 90%;  
+    max-width: 90%;  
+    height: auto;
+    top: 10%; 
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

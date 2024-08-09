@@ -1,0 +1,40 @@
+.crm {
+  padding-left: 20%;
+  overflow-y: scroll;
+}
+
+.page_header {
+  text-align: left;
+  font-size: 18px;
+  padding-top: 40px;
+  padding-left: 2%;
+}
+
+.search_container {
+  width: 90%;
+  text-align: right;
+}
+
+.search_inp {
+  border: none;
+  height: 26px;
+  width: 200px;
+  font-size: 12px;
+  padding-left: 10px;
+  margin-right: 25px;
+  border-radius: 4px;
+}
+
+.search_btn {
+  background: #7071e8;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  height: 26px;
+  padding: 0px 15px;
+  cursor: pointer;
+}
+
+ 

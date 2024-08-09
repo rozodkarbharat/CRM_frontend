@@ -1,0 +1,25 @@
+.table_title {
+  color: #8e8e8e;
+  text-align: left;
+  padding-left: 2%;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.crm_table {
+  width: 95%;
+  margin-top: 30px;
+}
+
+.crm_table th {
+  color: #8e8e8e;
+  font-size: 14px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.crm_table td {
+  font-size: 14px;
+  height: 22px;
+  text-align: center;
+}

@@ -1,0 +1,11 @@
+.orders {
+  padding-left: 20%;
+  overflow-y: scroll;
+}
+
+.page_header {
+  text-align: left;
+  font-size: 18px;
+  padding-top: 40px;
+  padding-left: 2%;
+}

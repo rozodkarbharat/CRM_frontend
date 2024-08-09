@@ -1,0 +1,113 @@
+.Stock_card {
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 40px 10px;
+   
+  }
+  
+  .stock_company {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .Stock_logo {
+    width: 40px;
+    height: 40px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .Stock_details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .priceRange,.stock_duration {
+    text-align: start;
+    color:#7a7979 ;
+    font-size: 12px;
+
+  }
+ 
+  .stock_duration{
+    text-align: right;
+  }
+  .priceRange_price,.duration_time{
+    font-size: 13px;
+    margin-bottom: 3px;
+  }
+  
+   
+  .stock_pricing {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stock_targetPrice {
+    text-align: start;
+    font-size: 13px;
+    color: green;
+  }
+  
+  .stock_stopLoss {
+    text-align: right;
+    font-size: 13px;
+    color: red;
+  }
+  .stock_card_btn{
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .stock_buyButton {
+    background-color: #7269ef;
+  }
+
+  .booked_Profit{
+    background-color: green;
+  }
+  .hit_Stop_loss{
+    background-color: red;
+  }
+  
+  .stock_footer {  
+    text-align: center;
+    color: #999;
+    font-size: 13px;
+    margin-top: 12px;
+  }
+  .footer_small{
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+    font-size: 10.5px;
+    margin-top: 12px;
+  }
+  
+ 
+  .targetPrice_price,.targetPrice_stopploss{
+    font-size: 13px;
+    margin-bottom: 3px;
+  }
+  .return_profit{
+    text-align: right;
+    font-size: 13px;
+    color: green;
+  }
+  .return_loss{
+    text-align: right;
+    font-size: 13px;
+    color: red;
+  }

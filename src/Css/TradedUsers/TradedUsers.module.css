@@ -1,0 +1,38 @@
+.pagename {
+    text-align: left;
+    font-size: 18px;
+    padding-top: 40px;
+    padding-left: 2%;
+}
+
+.order_table {
+    margin-top: 30px;
+    width: 670px;
+}
+
+.order_table th {
+    color: #8e8e8e;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.order_table td {
+    font-size: 14px;
+    text-align: center;
+    height: 22px;
+}
+
+.detail_btn {
+    background-color: #7071e8;
+    border: none;
+    color: #fff;
+    height: 25px;
+    font-size: 10px;
+    padding: 0px 10px;
+    border-radius: 2px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
